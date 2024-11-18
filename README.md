@@ -30,8 +30,8 @@
 - Open Terminal and run `git clone https://github.com/matan3sh/ox-security-assignment`
 - Go to `cd ox-security-assignment`
 - Open second tab
-- In the first tab go to frontend folder and **run** `npm run dev` running on `http://localhost:5173`
-- In the second tab go to backend folder and **run** `npm run dev` running on `http://localhost:8000`
+- In the second tab go to server folder then install dependencies with `npm i` and **run** `npm run dev` running on `http://localhost:8000`
+- In the first tab go to client folder then install dependencies with `npm i` and **run** `npm run dev` running on `http://localhost:5173`
 - Open Browser --> http://localhost:5173
 
 _Thank you :)_
