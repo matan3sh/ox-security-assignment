@@ -25,6 +25,8 @@
 
 ![enter image description here](https://i.ibb.co/c6kRCnR/3.jpg)
 
+- When the user attempts to enter the employee's name, a validation is performed on the input, allowing only characters from the English alphabet (A-Z) and no special characters. If the user tries to input special characters, a validation message will be displayed below the input field accordingly.
+
 ## Usage
 
 - Open Terminal and run `git clone https://github.com/matan3sh/ox-security-assignment`
