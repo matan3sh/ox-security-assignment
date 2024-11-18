@@ -6,7 +6,7 @@
 
 ## Technologies I used
 
-- React JS
+- React JS with Typescript
 - React Query
 - Styled Components
 
@@ -26,7 +26,7 @@
 
 ## Usage
 
-- Open Terminal and run `git clone https://github.com/matan3sh/ox-security-test`
+- Open Terminal and run `git clone https://github.com/matan3sh/ox-security-assignment`
 - Go to `cd ox-security-assignment`
 - Open second tab
 - In the first tab go to frontend folder and **run** `npm run dev` running on `http://localhost:5173`
