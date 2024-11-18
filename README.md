@@ -27,7 +27,7 @@
 ## Usage
 
 - Open Terminal and run `git clone https://github.com/matan3sh/ox-security-test`
-- Go to `cd capitolis-home-test`
+- Go to `cd ox-security-assignment`
 - Open second tab
 - In the first tab go to frontend folder and **run** `npm run dev` running on `http://localhost:5173`
 - In the second tab go to backend folder and **run** `npm run dev` running on `http://localhost:8000`
