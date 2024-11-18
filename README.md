@@ -12,8 +12,9 @@
 
 ## App Screens
 
-     - Paying transactions (amount < 0)
-     - Receiving transactions (amount > 0)
+     - Employees list
+     - Filter employees by status
+     - Search employees by name
 
 ![Employees list](https://i.ibb.co/yh7M4sn/1.jpg)
 
