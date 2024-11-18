@@ -9,6 +9,7 @@
 - React JS with Typescript
 - React Query
 - Styled Components
+- Ant Design
 
 ## App Screens
 
