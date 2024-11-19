@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 import { Flex, Input } from 'antd'
 
 export const StyledInputContainer = styled(Flex)`
+  flex: 1;
   .ant-select-selector {
     border: 1px solid #d9d9d9;
     border-radius: 2px;
@@ -31,6 +32,7 @@ export const StyledInputContainer = styled(Flex)`
 `
 
 export const StyledInput = styled(Input)`
+  width: 540px;
   border: 1px solid #d9d9d9;
   border-radius: 2px;
   padding: 8px 12px;

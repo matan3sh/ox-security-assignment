@@ -22,7 +22,7 @@ const Filter = ({ handleSearch, handleFilterByStatus }: FilterProps) => {
           onClear={() => handleFilterByStatus()}
           value={undefined}
           placeholder="Filter by status"
-          style={{ width: 275, height: '-webkit-fill-available' }}
+          style={{ width: 300, height: '-webkit-fill-available' }}
           allowClear
         />
       </StyledInputContainer>

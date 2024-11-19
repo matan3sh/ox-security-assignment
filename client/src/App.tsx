@@ -1,10 +1,14 @@
+import Header from './components/Header/Header'
 import Employees from './views/Employees/Employees'
 
 function App() {
   return (
-    <main>
-      <Employees />
-    </main>
+    <>
+      <Header />
+      <main>
+        <Employees />
+      </main>
+    </>
   )
 }
 
