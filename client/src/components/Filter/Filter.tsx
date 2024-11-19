@@ -1,15 +1,18 @@
 import { SearchOutlined } from '@ant-design/icons'
 import { Flex } from 'antd'
 import SelectStatus from '../SelectStatus/SelectStatus'
+import { EmpoyeeStatus } from '../SelectStatus/SelectStatus.config'
 import { StyledInput, StyledInputContainer } from './Filter.styled'
 
 interface FilterProps {
+  statusFilter: EmpoyeeStatus
   searchValue: string
   handleSearch: (value: string) => void
   handleFilterByStatus: (status?: string) => void
 }
 
 const Filter = ({
+  statusFilter,
   searchValue,
   handleSearch,
   handleFilterByStatus,
@@ -26,7 +29,7 @@ const Filter = ({
         <SelectStatus
           onChange={(status) => handleFilterByStatus(status)}
           onClear={() => handleFilterByStatus()}
-          value={undefined}
+          value={statusFilter}
           placeholder="Filter by status"
           style={{ width: 300, height: '-webkit-fill-available' }}
           allowClear
