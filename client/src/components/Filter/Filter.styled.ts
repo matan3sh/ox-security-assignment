@@ -34,20 +34,10 @@ export const StyledInputContainer = styled(Flex)`
 export const StyledInput = styled(Input)`
   width: 540px;
   border: 1px solid #d9d9d9;
-  border-radius: 2px;
   padding: 8px 12px;
   font-size: 16px;
   box-shadow: none;
   transition: all 0.3s ease;
-
-  &:hover {
-    border-color: #40a9ff;
-  }
-
-  &:focus {
-    border-color: #1890ff;
-    box-shadow: 0 0 4px rgba(24, 144, 255, 0.2);
-  }
 
   .ant-input-prefix {
     color: #8c8c8c;
