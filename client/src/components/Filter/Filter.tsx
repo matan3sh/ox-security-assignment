@@ -4,11 +4,16 @@ import SelectStatus from '../SelectStatus/SelectStatus'
 import { StyledInput, StyledInputContainer } from './Filter.styled'
 
 interface FilterProps {
+  searchValue: string
   handleSearch: (value: string) => void
   handleFilterByStatus: (status?: string) => void
 }
 
-const Filter = ({ handleSearch, handleFilterByStatus }: FilterProps) => {
+const Filter = ({
+  searchValue,
+  handleSearch,
+  handleFilterByStatus,
+}: FilterProps) => {
   return (
     <Flex gap={4}>
       <StyledInputContainer align="center">
@@ -16,6 +21,7 @@ const Filter = ({ handleSearch, handleFilterByStatus }: FilterProps) => {
           prefix={<SearchOutlined />}
           placeholder="Type to search"
           onChange={(e) => handleSearch(e.target.value)}
+          value={searchValue}
         />
         <SelectStatus
           onChange={(status) => handleFilterByStatus(status)}

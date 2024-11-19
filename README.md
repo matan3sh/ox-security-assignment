@@ -25,7 +25,10 @@
 
 ![enter image description here](https://i.ibb.co/c6kRCnR/3.jpg)
 
+## UX Improvements
+
 - When the user attempts to enter the employee's name, a validation is performed on the input, allowing only characters from the English alphabet (A-Z) and no special characters. If the user tries to input special characters, a validation message will be displayed below the input field accordingly.
+- When the user searches for an Employee in the Search Input, whatever they type will be updated in the URL, so that even after refreshing the page, the search state they performed will remain.
 
 ## Usage
 
